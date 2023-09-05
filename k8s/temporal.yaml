@@ -69,6 +69,7 @@ items:
         io.kompose.service: temporal-ui
       name: temporal-ui
     spec:
+      type: NodePort
       ports:
         - name: "8080"
           port: 8080
